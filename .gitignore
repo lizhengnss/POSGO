@@ -1,0 +1,6 @@
+cmake-build-debug/
+build_debug/
+build_release/
+build/
+
+*.pyc

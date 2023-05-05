@@ -1,0 +1,53 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "build debug POSGO",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_debug/POSGO",
+            "args": [
+                "-C", "spp_kpl_lsqd.ini", "-S", "GREC", "-M", "spp", "-L", "1",
+            ],
+            "stopAtEntry": false,
+            "cwd": "/mnt/hgfs/VirtualFile/POSGO_V1.0/conf",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "debug POSGO"
+        },
+        {
+            "name": "build release POSGO",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build_release/POSGO",
+            "args": [
+                "-C", "rp_kpl_ekfd.ini", "-S", "GREC", "-M", "rtk", "-L", "1",
+            ],
+            "stopAtEntry": false,
+            "cwd": "/mnt/hgfs/VirtualFile/POSGO_V1.0/conf",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask":"release POSGO"
+        },
+    ]
+}
