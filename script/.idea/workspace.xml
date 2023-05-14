@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6009f877-bc7b-4f29-967f-1f33cf65af0a" name="默认变更列表" comment="" />
+    <list default="true" id="6009f877-bc7b-4f29-967f-1f33cf65af0a" name="默认变更列表" comment="">
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/rp_kpl_gol.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../conf/rp_kpl_gol.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analyze.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,7 +35,7 @@
       <recent name="E:\VirtualFile\POSGO\script" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Analyze">
+  <component name="RunManager" selected="Python.AnalyzeStatic">
     <configuration name="Analyze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="script" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -43,7 +49,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analyze.py" />
-      <option name="PARAMETERS" value="E:\VirtualFile\data\paper\Alloy\my.txt E:\VirtualFile\data\paper\Alloy\ref.txt" />
+      <option name="PARAMETERS" value="E:\VirtualFile\data\paper\P40\my.txt E:\VirtualFile\data\paper\P40\ref.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -122,8 +128,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Analyze" />
         <item itemvalue="Python.AnalyzeStatic" />
+        <item itemvalue="Python.Analyze" />
         <item itemvalue="Python.mytime" />
         <item itemvalue="Python.dynamic" />
       </list>

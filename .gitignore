@@ -4,3 +4,7 @@ build_release/
 build/
 
 *.pyc
+script/residual.png
+script/det.txt
+
+

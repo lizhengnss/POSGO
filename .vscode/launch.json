@@ -14,7 +14,7 @@
                 "-C", "spp_kpl_lsqd.ini", "-S", "GREC", "-M", "spp", "-L", "1",
             ],
             "stopAtEntry": false,
-            "cwd": "/mnt/hgfs/VirtualFile/POSGO_V1.0/conf",
+            "cwd": "/mnt/hgfs/VirtualFile/POSGO/conf",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -33,10 +33,10 @@
             "request": "launch",
             "program": "${workspaceFolder}/build_release/POSGO",
             "args": [
-                "-C", "rp_kpl_ekfd.ini", "-S", "GREC", "-M", "rtk", "-L", "1",
+                "-C", "spp_mate_go.ini", "-S", "GCRE", "-M", "spp", "-L", "1"
             ],
             "stopAtEntry": false,
-            "cwd": "/mnt/hgfs/VirtualFile/POSGO_V1.0/conf",
+            "cwd": "/mnt/hgfs/VirtualFile/POSGO/conf",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",

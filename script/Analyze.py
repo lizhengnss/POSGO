@@ -62,11 +62,11 @@ def StatisticResult(_det):
         all += 1
         _stat.gpsw.append(time)
 
-        if abs(det["b"]) < 100:
+        if abs(det["b"]) < 1e10:
             _stat.dx.append(det["b"])
-        if abs(det["l"]) < 100:
+        if abs(det["l"]) < 1e10:
             _stat.dy.append(det["l"])
-        if abs(det["h"]) < 100:
+        if abs(det["h"]) < 1e10:
             _stat.dz.append(det["h"])
         if det["stat"] == 1 or det["stat"] == 3:
             fix += 1
@@ -184,8 +184,8 @@ if __name__ == '__main__':
     detFile = "det.txt"
 
     calValue = ReadMyResult(calFile)
-    refValue = ReadIERefResult(refFile)
-#    refValue = ReadGINSResult(refFile)
+#    refValue = ReadIERefResult(refFile)
+    refValue = ReadGINSResult(refFile)
 
     detValue = CalDifference(calValue, refValue)
     Stat = StatisticResult(detValue)
