@@ -184,8 +184,8 @@ if __name__ == '__main__':
     detFile = "det.txt"
 
     calValue = ReadMyResult(calFile)
-#    refValue = ReadIERefResult(refFile)
-    refValue = ReadGINSResult(refFile)
+    refValue = ReadIERefResult(refFile)
+#    refValue = ReadGINSResult(refFile)
 
     detValue = CalDifference(calValue, refValue)
     Stat = StatisticResult(detValue)

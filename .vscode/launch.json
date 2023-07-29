@@ -33,7 +33,7 @@
             "request": "launch",
             "program": "${workspaceFolder}/build_release/POSGO",
             "args": [
-                "-C", "spp_mate_go.ini", "-S", "GCRE", "-M", "spp", "-L", "1"
+                "-C", "spp_kpl_gold.ini", "-S", "GREC", "-M", "spp", "-L", "1",
             ],
             "stopAtEntry": false,
             "cwd": "/mnt/hgfs/VirtualFile/POSGO/conf",

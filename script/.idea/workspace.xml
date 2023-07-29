@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="6009f877-bc7b-4f29-967f-1f33cf65af0a" name="默认变更列表" comment="">
       <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conf/rp_kpl_gol.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../conf/rp_kpl_gol.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../conf/rp_kpl_gold.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../conf/rp_kpl_gold.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/~$SGO User Manual.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analyze.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/det.txt" beforeDir="false" afterPath="$PROJECT_DIR$/det.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/residual.png" beforeDir="false" afterPath="$PROJECT_DIR$/residual.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +38,8 @@
       <recent name="E:\VirtualFile\POSGO\script" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.AnalyzeStatic">
-    <configuration name="Analyze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Analyze">
+    <configuration name="Analyze" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="script" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,7 +52,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analyze.py" />
-      <option name="PARAMETERS" value="E:\VirtualFile\data\paper\P40\my.txt E:\VirtualFile\data\paper\P40\ref.txt" />
+      <option name="PARAMETERS" value="E:\VirtualFile\data\paper\kpl\my.txt E:\VirtualFile\POSGO\data\kpl\ref.txt" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -57,7 +60,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="AnalyzeStatic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="calculate (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="script" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,12 +68,54 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="D:/论文撰写/(GPSS)POSGO an open-source software for GNSS pseudorange positioning based on graph optimization/实验数据/RTK2" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AnalyzeStatic.py" />
-      <option name="PARAMETERS" value="E:\VirtualFile\data\paper\Mate20\my.txt xyz -2267059.8635 5009368.6595 3221416.3328" />
+      <option name="SCRIPT_NAME" value="D:/论文撰写/(GPSS)POSGO an open-source software for GNSS pseudorange positioning based on graph optimization/实验数据/RTK2/calculate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calculate (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/论文撰写/(GPSS)POSGO an open-source software for GNSS pseudorange positioning based on graph optimization/实验数据/RTK" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/论文撰写/(GPSS)POSGO an open-source software for GNSS pseudorange positioning based on graph optimization/实验数据/RTK/calculate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calculate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/论文撰写/(GPSS)POSGO an open-source software for GNSS pseudorange positioning based on graph optimization/实验数据/SPP2" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/论文撰写/(GPSS)POSGO an open-source software for GNSS pseudorange positioning based on graph optimization/实验数据/SPP2/calculate.py" />
+      <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -99,38 +144,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mytime" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="script" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mytime.py" />
-      <option name="PARAMETERS" value="ws2hms 2216 533502.000" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Analyze" />
-      <item itemvalue="Python.AnalyzeStatic" />
-      <item itemvalue="Python.mytime" />
       <item itemvalue="Python.dynamic" />
+      <item itemvalue="Python.calculate" />
+      <item itemvalue="Python.calculate (1)" />
+      <item itemvalue="Python.calculate (2)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.AnalyzeStatic" />
-        <item itemvalue="Python.Analyze" />
-        <item itemvalue="Python.mytime" />
+        <item itemvalue="Python.calculate (2)" />
+        <item itemvalue="Python.calculate (1)" />
+        <item itemvalue="Python.calculate" />
         <item itemvalue="Python.dynamic" />
       </list>
     </recent_temporary>
@@ -145,5 +170,16 @@
       <updated>1661325567797</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Analyze.py</url>
+          <line>187</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
