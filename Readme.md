@@ -1,6 +1,6 @@
 # POSGO
 
-## an open-source software for GNSS pseudorange positioning based on graph optimization
+## An open-source software for GNSS pseudorange positioning based on graph optimization
 
 <img src="doc/POSGO.png" alt="POSGO" style="zoom:20%;" />
 
@@ -16,7 +16,7 @@ POSGO (POSition based on Graph Optimization) is a multi-frequency and multi-GNSS
 
 **Related Paper:**
 
-- Li Z, Guo J, Zhao Q (2022) POSGO: an open-source software for GNSS pseudorange positioning based on graph optimization.
+- Li, Z., Guo, J. & Zhao, Q. POSGO: an open-source software for GNSS pseudorange positioning based on graph optimization. GPS Solut 27, 187 (2023). https://doi.org/10.1007/s10291-023-01528-z
 
 ## 1 Prerequisites
 
@@ -65,12 +65,12 @@ POSGO -C [config] -S [GREC] -M [ProcessMode] -L [TraceLevel]
 The program parameters of SPP GOLD in paper are as follows:
 
 ```
-POSGO -C YOURPATH/conf/spp_kpl_go_ld.ini -S GREC -M SPP -L 1
+POSGO -C YOURPATH/conf/spp_kpl_gold.ini -S GREC -M SPP -L 1
 ```
 
 The program parameters of RP GOLD in paper are as follows:
 ```
-POSGO -C YOURPATH/conf/rp_kpl_go_ld.ini -S GREC -M RTK -L 1
+POSGO -C YOURPATH/conf/rp_kpl_gold.ini -S GREC -M RTK -L 1
 ```
 
 ## 3 Datasets
@@ -106,3 +106,8 @@ At the same time, Shengyi Xu from Wuhan University provided some analysis script
 The source code is released under GPLv3 license.
 
 We are still working on improving the code reliability and fix potential bugs. For any technical issues, please contact Zhen Li (sdkjlizhen@foxmail.com) or open an issue at this repository.
+
+
+## 6 Update plan
+We plan to update the multi-frequency precise point positioning with ambiguity resolution (PPP-AR) in the latter half of this year or early next year.
+

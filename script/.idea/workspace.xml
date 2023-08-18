@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6009f877-bc7b-4f29-967f-1f33cf65af0a" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../conf/rp_kpl_gold.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../conf/rp_kpl_gold.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../doc/KPL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/KPL.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/~$SGO User Manual.docx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Analyze.py" beforeDir="false" afterPath="$PROJECT_DIR$/Analyze.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/det.txt" beforeDir="false" afterPath="$PROJECT_DIR$/det.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/residual.png" beforeDir="false" afterPath="$PROJECT_DIR$/residual.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
