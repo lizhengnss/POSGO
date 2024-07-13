@@ -6,5 +6,7 @@ build/
 *.pyc
 script/residual.png
 script/det.txt
+*.xml
 
 
+/.idea

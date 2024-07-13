@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
 import numpy as np
 from mytime import gpsws2ymdhms
-from com import std, rms, mean, maxabs, xyz_blh
+from com import std, rms, mean, maxabs, xyz2neu, blh2xyz, xyz2blh
 
 RE = 6378137
 
@@ -26,18 +26,21 @@ class coord(object):
         self.detx, self.dety, self.detz = [], [], []
         if type == 'xyz':
             self.x, self.y, self.z = a, b, c
-            self.b, self.l, self.h = xyz_blh(a, b, c)
+            self.b, self.l, self.h = xyz2blh(a, b, c)
         #    self.l = 180-self.l
         elif type == 'blh':
+            self.x, self.y, self.z = blh2xyz(a, b, c)
             self.b, self.l, self.h = a, b, c
         else:
             print('error parameter of function =setvalue=')
             exit(1)
 
-    def getRes(self, x, y, z):
-        self.detx.append(radians(x - self.b) * RE)
-        self.dety.append(radians(y - self.l) *  RE / sin(radians(y)))
-        self.detz.append(z - self.h)
+    def getRes(self, b, l, h):
+        x, y, z = blh2xyz(b, l, h)
+        n, e, u = xyz2neu(x, y, z, self.x, self.y, self.z)
+        self.detx.append(n)
+        self.dety.append(e)
+        self.detz.append(u)
 
 
     def statistic(self):

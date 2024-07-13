@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6009f877-bc7b-4f29-967f-1f33cf65af0a" name="默认变更列表" comment="">
-      <change beforePath="$PROJECT_DIR$/../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/KPL.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/KPL.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../doc/POSGO User Manual.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalyzeStatic.py" beforeDir="false" afterPath="$PROJECT_DIR$/AnalyzeStatic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/residual.png" beforeDir="false" afterPath="$PROJECT_DIR$/residual.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +23,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/论文撰写/博士毕业论文/3.3CN0多路径探测" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -34,7 +33,28 @@
       <recent name="E:\VirtualFile\POSGO\script" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Analyze">
+  <component name="RunManager" selected="Python.定位误差序列">
+    <configuration name="定位误差序列" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/论文撰写/博士毕业论文/3.6最优整数等变估计/ALBH测站BIE分析/PPP分析" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:/论文撰写/博士毕业论文/3.6最优整数等变估计/ALBH测站BIE分析/PPP分析/定位误差序列.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Analyze" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="script" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -49,6 +69,27 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Analyze.py" />
       <option name="PARAMETERS" value="E:\VirtualFile\data\paper\kpl\my.txt E:\VirtualFile\POSGO\data\kpl\ref.txt" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AnalyzeStatic" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="script" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AnalyzeStatic.py" />
+      <option name="PARAMETERS" value="D:\论文撰写\博士毕业论文\3.6最优整数等变估计\ALBH测站BIE分析\PPP分析\\BIE新方法定位序列.txt  xyz  -2341333.1657  -3539049.5974   4745791.2917" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -141,14 +182,17 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.AnalyzeStatic" />
       <item itemvalue="Python.Analyze" />
       <item itemvalue="Python.dynamic" />
       <item itemvalue="Python.calculate" />
       <item itemvalue="Python.calculate (1)" />
       <item itemvalue="Python.calculate (2)" />
+      <item itemvalue="Python.定位误差序列" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.定位误差序列" />
         <item itemvalue="Python.calculate (2)" />
         <item itemvalue="Python.calculate (1)" />
         <item itemvalue="Python.calculate" />
@@ -174,6 +218,11 @@
           <url>file://$PROJECT_DIR$/Analyze.py</url>
           <line>187</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/AnalyzeStatic.py</url>
+          <line>140</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

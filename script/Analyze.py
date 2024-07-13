@@ -5,13 +5,13 @@
 Purpose    : 绘制PosGO软件"动态"残差序列, 参考值来自IE
 '''
 import sys
+import math
 from mytime import gpsws2ymdhms
 from datetime import datetime
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.dates as mdates
-from math import radians, sin
-from com import std, rms, mean, maxabs
+from com import std, rms, mean, maxabs, xyz2neu, blh2xyz
 from readfile import ReadMyResult, ReadIERefResult, ReadGINSResult
 
 class cStat(object):
@@ -30,9 +30,11 @@ class cStat(object):
 
 RE = 6378137
 
+
 def CalDifference(_cal, _ref):
     """
     @author    : shengyixu Created on 2022.8.20
+                 lizhen modified on 2024.7.13: 输出N、E、U方向误差
     Purpose    : 获取PosGO计算值与IE参考值的残差序列
     input      : PosGO计算文件:_cal 
                     IE参考文件:_ref
@@ -41,12 +43,10 @@ def CalDifference(_cal, _ref):
     for time, cal in _cal.items():
 
         if time in _ref.keys():
-            result.update(
-                {time: {'b': radians(cal["b"] - _ref[time]["b"]) * RE,
-                        'l': radians(cal["l"] - _ref[time]["l"]) * RE / sin(radians(cal["b"])),
-                        'h': cal["h"] - _ref[time]["h"],
-                        'stat': cal['stat'],
-                        }})
+            x1, y1, z1 = blh2xyz(cal['b'], cal['l'], cal['h'])
+            x2, y2, z2 = blh2xyz(_ref[time]['b'], _ref[time]['l'], _ref[time]['h'])
+            n, e, u = xyz2neu(x1, y1, z1, x2, y2, z2)
+            result.update( {time: {'b': n, 'l': e, 'h': u, 'stat': cal['stat'] }})
     return result
 
 
@@ -184,8 +184,8 @@ if __name__ == '__main__':
     detFile = "det.txt"
 
     calValue = ReadMyResult(calFile)
-    refValue = ReadIERefResult(refFile)
-#    refValue = ReadGINSResult(refFile)
+ #   refValue = ReadIERefResult(refFile)
+    refValue = ReadGINSResult(refFile)
 
     detValue = CalDifference(calValue, refValue)
     Stat = StatisticResult(detValue)
